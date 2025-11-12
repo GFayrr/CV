@@ -1,0 +1,28 @@
+h1 {
+    color: green;
+}
+
+body {
+    color: rgb(12, 200, 0);
+    background-color: indigo;
+}
+
+h2 {
+    color: teal;
+}
+
+footer {
+    color: #78a;
+}
+
+#lien {
+    color: skyblue;
+}
+
+#lien:hover {
+    color: rgba(48, 21, 150, 78);
+}
+
+em {
+    color: #45A1BB;
+}
