@@ -20,22 +20,17 @@ a{
     color: black;
 }
 
-div {
-    height: 100px;
-    width: 300px;
+#tab {
+    margin-left: 1em;
+    margin-top: -12px;
+    padding-bottom: 7px;
 }
 
-#div1 {
-    flex: 1;
-    background-color: aqua;
-}
-
-#div2 {
-    flex: 0.5;
-    background-color: blueviolet;
-}
-
-#div3 {
-    flex: 3;
-    background-color: yellow;
+#chrono {
+    color: black;
+    margin-left: 1em;
+    text-align: center;
+    background-color: #F5F5F5;
+    width: 150px;
+    height: auto;
 }
