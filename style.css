@@ -13,6 +13,14 @@ body{
   color:#111;
 }
 
+p {
+  margin-top: -0.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
 .cv {
   width: min(var(--page-width), 95vw);
   background:white;
@@ -22,7 +30,7 @@ body{
   box-shadow:0 6px 20px rgba(0,0,0,0.08);
 }
 
-.header {
+header {
   display:flex;
   justify-content:space-between;
   margin-bottom:20px;
@@ -37,35 +45,37 @@ body{
   font-size:36px;
   font-weight:700;
   color:var(--blue);
-  margin-top:-6px;
+  margin-top: -0.7em;
 }
 
 .location{
   font-size:14px;
   color:var(--gray);
-  margin-top:6px;
+  margin-top: -2.7em;
 }
 
 .contact{
   text-align:right;
   font-size:14px;
 }
+
 .contact .mobile{
   font-weight:600;
   margin-bottom:4px;
 }
+
 .contact a{
   text-decoration:none;
   color:var(--gray);
 }
 
-.section{
+section{
   margin-top:20px;
   padding-top:12px;
   border-top:1px solid #e5e7eb;
 }
 
-.section h2{
+section h2{
   font-size:14px;
   text-transform:uppercase;
   letter-spacing:1px;
@@ -80,41 +90,56 @@ body{
   gap:10px 20px;
   margin-bottom:16px;
 }
+
 .entry .date{
   font-size:13px;
   color:var(--gray);
 }
+
 .entry .title{
   font-size:15px;
   font-weight:700;
+  margin-top: 0.5px;
+  margin-bottom: -0.2em;
 }
+
 .entry .meta{
   font-size:13px;
   font-weight:600;
   color:var(--blue);
-  margin-bottom:4px;
+  margin-top: 4px;
 }
+
 .entry .desc{
   font-size:14px;
   color:#333;
+  margin-top: -0.1em;
 }
 
 .project{
   margin-bottom:12px;
 }
+
 .project .label{
   font-weight:700;
   font-size:15px;
 }
+
+.label {
+  margin-bottom: -0.1em;
+}
+
 .project .meta{
   font-size:13px;
   font-weight:600;
   color:var(--blue);
   margin:2px 0 6px;
 }
+
 .project .desc{
   font-size:14px;
   color:#333;
+  margin-top: -0.5em;
 }
 
 .skills-list{
@@ -124,6 +149,7 @@ body{
   padding:0;
   list-style:none;
 }
+
 .skills-list li{
   margin-bottom:6px;
   font-size:14px;
@@ -139,36 +165,36 @@ body{
 }
 
 .home-container {
-    max-width: 900px;
-    margin: 80px auto 40px;
-    padding: 20px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.6;
-    color: #111;
+max-width: 900px;
+margin: 80px auto 40px;
+padding: 20px;
+text-align: center;
+font-size: 18px;
+line-height: 1.6;
+color: #111;
 }
 
 .home-text {
-    background: #f9fafb;
-    border-left: 4px solid var(--blue);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  background: #f9fafb;
+  border-left: 4px solid var(--blue);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
 }
 
 #lien {
-    color: var(--blue);
-    font-weight: 600;
-    text-decoration: none;
+  color: var(--blue);
+  font-weight: 600;
+  text-decoration: none;
 }
 
 #lien:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .home-footer {
-    margin-top: 250px;
-    text-align: center;
-    color: var(--gray);
-    font-size: 14px;
+  margin-top: 250px;
+  text-align: center;
+  color: var(--gray);
+  font-size: 14px;
 }
