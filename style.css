@@ -84,7 +84,8 @@ section h2 {
   margin-bottom: 12px;
 }
 
-.entry, .work {
+.entry,
+.work {
   display: grid;
   grid-template-columns: 140px 1fr;
   gap: 10px 20px;
