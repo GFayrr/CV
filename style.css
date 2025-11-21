@@ -183,7 +183,8 @@ section h2 {
   font-weight: 600;
 }
 
-#lien:hover {
+#lien:hover,
+.meta:hover {
   text-decoration: underline;
 }
 
