@@ -184,7 +184,7 @@ section h2 {
 }
 
 #lien:hover,
-.meta:hover {
+.entry .meta:hover {
   text-decoration: underline;
 }
 
