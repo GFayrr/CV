@@ -61,8 +61,6 @@ header {
 }
 
 section {
-  margin-top: 5px !important;
-  padding-top: 5px !important;
   border-top: 1px solid #e5e7eb !important;
   page-break-inside: avoid;
 }
