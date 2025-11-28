@@ -21,6 +21,7 @@ body {
   border-top: 6px solid #2a66b8 !important;
   padding: 5px 0px !important;
   margin: 0 auto !important;
+  margin-bottom: 0 !important;
 }
 
 header {
