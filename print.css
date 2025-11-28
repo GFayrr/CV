@@ -1,0 +1,157 @@
+@page {
+  size: A4;
+  margin: 1.5cm;
+}
+
+body {
+  background: white !important;
+  color: #111 !important;
+  padding: 0;
+  display: block !important;
+  font-family: "Inter", sans-serif;
+  font-size: 12pt;
+  line-height: 1.4;
+}
+
+.cv {
+  width: 100% !important;
+  max-width: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  border-top: 6px solid #2a66b8 !important;
+  padding: 20px 0 !important;
+  margin: 0 auto !important;
+}
+
+header {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  margin-bottom: 15px !important;
+}
+
+.name-first {
+  font-size: 18pt !important;
+  font-weight: 600 !important;
+}
+
+.name-last {
+  font-size: 24pt !important;
+  font-weight: 700 !important;
+  color: #2a66b8 !important;
+  margin-top: -0.5em !important;
+}
+
+.location {
+  font-size: 10pt !important;
+  color: #6b7280 !important;
+  margin-top: -2em !important;
+}
+
+.contact {
+  text-align: right !important;
+  font-size: 10pt !important;
+}
+
+.contact .mobile {
+  font-weight: 600 !important;
+  margin-bottom: 2px !important;
+}
+
+section {
+  margin-top: 15px !important;
+  padding-top: 8px !important;
+  border-top: 1px solid #e5e7eb !important;
+  page-break-inside: avoid;
+}
+
+section h2 {
+  font-size: 12pt !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  color: #2a66b8 !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+.entry,
+.work {
+  display: grid !important;
+  grid-template-columns: 120px 1fr !important;
+  gap: 5px 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.entry .date,
+.work .date {
+  font-size: 10pt !important;
+  color: #6b7280 !important;
+}
+
+.entry .title,
+.work .title {
+  font-size: 11pt !important;
+  font-weight: 700 !important;
+  margin-bottom: -0.1em !important;
+}
+
+.entry .meta,
+.work .meta,
+.project .meta {
+  font-size: 10pt !important;
+  font-weight: 600 !important;
+  color: #2a66b8 !important;
+}
+
+.entry .desc,
+.work .desc,
+.project .desc {
+  font-size: 10pt !important;
+  color: #333 !important;
+  margin-top: -0.1em !important;
+}
+
+.project {
+  margin-bottom: 10px !important;
+}
+
+.project .label {
+  font-weight: 700 !important;
+  font-size: 11pt !important;
+  margin-bottom: -0.1em !important;
+}
+
+.skills-list {
+  columns: 2 !important;
+  column-gap: 20px !important;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 10pt !important;
+  margin-bottom: 2px !important;
+}
+
+.home-container,
+.home-text,
+.home-footer,
+#lien,
+.button,
+.no-print {
+  display: none !important;
+}
+
+.page-break {
+  page-break-before: always !important;
+}
+
+html {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+* {
+  page-break-inside: avoid;
+}
