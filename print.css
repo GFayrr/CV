@@ -62,7 +62,6 @@ header {
 
 section {
   margin-top: -15px;
-  margin-bottom: -5px;
   border-top: 1px solid #e5e7eb !important;
   page-break-inside: avoid;
 }
