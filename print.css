@@ -41,13 +41,13 @@ header {
   font-size: 24pt !important;
   font-weight: 700 !important;
   color: #2a66b8 !important;
-  margin-top: -0.5em !important;
+  margin-top: -1em !important;
 }
 
 .location {
   font-size: 10pt !important;
   color: #6b7280 !important;
-  margin-top: -2em !important;
+  margin-top: -2.5em !important;
 }
 
 .contact {
@@ -61,7 +61,6 @@ header {
 }
 
 section {
-  margin-top: -10px;
   border-top: 1px solid #e5e7eb !important;
   page-break-inside: avoid;
 }
