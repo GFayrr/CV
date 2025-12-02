@@ -1,1 +1,1 @@
-Mon CV en ligne
+Personal online resume
